@@ -17,12 +17,6 @@
             key-positions = <53 54>;
             layers = <0>;
         };
-
-        fn {
-            bindings = <&kp GLOBE>;
-            key-positions = <36 49>;
-            layers = <0>;
-        };
     };
 
     keymap {
@@ -37,11 +31,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3        &kp N4  &kp N5                                 &kp N6          &kp N7  &kp N8         &kp N9   &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp E         &kp R   &kp T                                  &kp Y           &kp U   &kp I          &kp O    &kp P     &kp GRAVE
-&kp LCTRL  &kp A   &kp S   &kp D         &kp F   &kp G                                  &kp H           &kp J   &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C         &kp V   &kp B          &kp LBKT     &kp RBKT   &kp N           &kp M   &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
-                           &kp LEFT_ALT  &mo 1   &kp LEFT_META  &kp SPACE    &kp ENTER  &kp RIGHT_META  &mo 1   &kp BACKSPACE
+&kp ESC    &kp N1  &kp N2  &kp N3        &kp N4         &kp N5                          &kp N6  &kp N7          &kp N8         &kp N9   &kp N0    &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp E         &kp R          &kp T                           &kp Y   &kp U           &kp I          &kp O    &kp P     &kp GRAVE
+&kp LCTRL  &kp A   &kp S   &kp D         &kp F          &kp G                           &kp H   &kp J           &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C         &kp V          &kp B   &kp LBKT     &kp RBKT   &kp N   &kp M           &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
+                           &kp LEFT_ALT  &kp LEFT_META  &mo 1   &kp SPACE    &kp ENTER  &mo 1   &kp RIGHT_META  &kp BACKSPACE
             >;
         };
 
